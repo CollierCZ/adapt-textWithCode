@@ -7,7 +7,7 @@
   "issues": "https://github.com/CollierCZ/adapt-textWithCode/issues",
   "displayName" : "Text with Code",
   "component" : "text",
-  "description": "A simple core contributed text component with the added function of highlighting code",
+  "description": "A simple text component with the added function of highlighting code",
   "main": "/js/adapt-textWithCode.js",
   "keywords": [
     "adapt-plugin",

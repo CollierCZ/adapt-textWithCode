@@ -1,7 +1,7 @@
 define([
       'core/js/adapt',
       'core/js/views/componentView',
-      'core/js/libraries/prism'
+      'core/js/libraries/highlight.pack'
   ], function(Adapt, ComponentView) {
 
     var Text = ComponentView.extend({
@@ -65,7 +65,7 @@ define([
                     this.setCompletionStatus();
                 }
             };
-            Prism.highlightAll();
+            hljs.initHighlighting();
         },
 
         remove: function() {
