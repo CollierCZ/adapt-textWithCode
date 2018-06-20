@@ -65,7 +65,6 @@ define([
                     this.setCompletionStatus();
                 }
             };
-            hljs.initHighlighting();
         },
 
         remove: function() {
@@ -79,6 +78,7 @@ define([
     {
         template: 'text'
     });
+    hljs.initHighlightingOnLoad();
 
     Adapt.register('text', Text);
 
